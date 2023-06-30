@@ -21,11 +21,12 @@ public:
 class BinaryTree
 {
 public:
-	Node* ROOT:
+	Node* ROOT;
 
-		BinaryTree()
+	BinaryTree()
 	{
 		ROOT = NULL; //Initalizing ROOT to null
-
 	}
+
+	void insert(string element) //insert a node in the binary search tree
 };
